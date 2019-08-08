@@ -1,0 +1,158 @@
+
+
+
+/*SECTION BARRE De RECHERCHE*/
+/*/  container search*/
+.flex-container-database{
+	display: flex;
+	width: 100%;
+	height:80px;
+	background-color: rgb(209, 206, 13);
+}
+
+
+/*/ items search*/
+
+.flex-section-db{
+	width: 80%;
+	text-align: center;
+	display: flex;
+	width: 60%;
+	height: 80px;
+    background-color: #ad2121;
+}
+
+.menu-insc {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  border-top: solid 3px #ca431d;
+ background-color: #292929;
+  z-index: 7;
+}
+.menu-insc li {
+  float: left;
+  width: 25%;
+  height: 77px;
+  margin: 0;
+  padding: 0;
+  
+}
+.menu-insc a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #a79281;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  z-index: 9;
+}
+.menu-insc a.active {
+  background-color: #212121;
+  pointer-events: none;
+  color: #a79281;
+  font-weight: bold;
+}
+
+.menu-insc a:hover{
+  color: #fff;
+  font-size: 25px;
+  
+}
+.menu-insc li.slider {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e74c3c;
+  opacity: 0.5;
+  z-index: 8;
+  transition: left 0.4s, background-color 0.4s;
+}
+.menu-insc li:nth-child(1):hover ~ .slider,
+.menu-insc li:nth-child(1):focus ~ .slider,
+.menu-insc li:nth-child(1):active ~ .slider {
+  left: 0;
+  background-color: #3498db;
+ 
+
+}
+.menu-insc li:nth-child(1):hover ~ .slider,
+.menu-insc li:nth-child(2):focus ~ .slider,
+.menu-insc li:nth-child(2):active ~ .slider {
+  left: 25%;
+  background-color: #9b59b6;
+}
+.menu-insc li:nth-child(3):hover ~ .slider,
+.menu-insc li:nth-child(3):focus ~ .slider,
+.menu-inscli:nth-child(3):active ~ .slider {
+  left: 50%;
+  background-color: #e67e22;
+}
+.menu-insc li:nth-child(4):hover ~ .slider,
+.menu-insc li:nth-child(4):focus ~ .slider,
+.menu-insc li:nth-child(4):active ~ .slider {
+  left: 75%;
+  background-color: #16a085;
+}
+
+
+.flex-section-search{
+  border-top: solid 3px #ca431d;
+	display: flex;
+	justify-content: center;
+
+	width: 50%;
+	height: 80px;
+	background-color: #292929;
+}
+
+input {
+
+	line-height: normal;
+	transition: all ease-in-out .25s;
+  }
+  input:focus {
+	outline: none;
+	transform: scale(1.02);
+	-webkit-box-shadow: 0 10px 30px -20px #999;
+	-moz-box-shadow: 0 10px 30px -20px #999;
+	box-shadow: 0 10px 30px -20px #999;
+	transition: all ease-in-out .25s;
+  }
+  input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+  }
+  
+  .search-field {
+	background-image: url("https://s3-ap-southeast-2.amazonaws.com/energylink-desk.com/images/search.svg");
+	/* background-image: url("../img/flat-search-icone.png"); */
+	background-position-x: 1.2em;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+
+	-webkit-box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.2);
+	font-size: 1em;
+	height: 2rem;
+	margin: auto -35px;
+	max-height: 2em;
+	padding: .4em 3em .4em;
+	text-align: left;
+	text-align-last: left;
+	width: 70%;
+	margin-left: 20px;
+	border-radius: 5PX;
+
+  }
+  

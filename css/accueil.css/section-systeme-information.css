@@ -1,0 +1,59 @@
+
+
+.container-systeme-information {
+  width: 100%;
+  height: 1100px;
+  background-color: #39da11;
+  background-image: url("/img/analyse-si.jpg");
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  margin-top: -20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.btn-systeme-information {
+  width: 600px;
+  height: 100px;
+  background-color: #3d29fa;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 2px;
+  color: aliceblue;
+  font-size: 2em;
+}
+
+.btn-systeme-information:hover {
+  width: 600px;
+  height: 100px;
+  background-color: #ec6911;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 2px;
+  color: rgb(246, 247, 248);
+  font-size: 2em;
+}
+/*///////Banniers responsive///////////*/
+.contaire-bannier-syteme-information{
+  width: 100%;
+  height: 500px;
+  background-color: #da1122;
+  margin-top: -20px;
+  background-image: url("/img/banniers-solution-planification-s-i.jpg");
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 20PX;
+}
+
+/*///////Banniers responsive///////////*/
+.contaire-bannier-pub-solution{
+	width: 100%;
+	height: 300px;
+	background-color: #da1122;
+	margin-top: -20px;
+    background-repeat: no-repeat, center;
+    background-size: cover;
+    background-image: url("/img/banniers-pub.png");
+ 
+}

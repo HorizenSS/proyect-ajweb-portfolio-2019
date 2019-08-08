@@ -1,0 +1,255 @@
+
+/* container contact-me*/
+
+/* contenedor-global-about-me */
+.flex-container-global-contact-me {
+  position: relative;
+  border: solid 1px  rgba(251,145,10, .3);
+  width: 90%;
+  height: 510px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+
+}
+/* ACCUEIL-CONTACT-ME */
+/*CONTENEDOR GLOBAL*/
+/* contendor principal izquierda google maps */
+.principal-guache-abouts-me {
+
+  height: 500px;
+  /* background-color: #4fee0b; */
+  /* border: solid 5px #0240f8; */
+  width: 40%;
+  display: flex;
+}
+
+/* CONTENEDOR PRINCIPAL IZQUIERDA */
+/* div titre contact */
+.paragraphe-titre-contact{
+  height: 100%;
+  /* background-color: #dd0b0b;
+  border: solid 5px #0240f8; */
+  width: 25%;
+}
+
+/* paragraphe titre contact */
+.paragraphe-titre-contact p{
+  font-size: 50px;
+  color: #fb910a;
+  transform: rotate(-90deg);
+  margin-top: 254px;
+  margin-left: -120px;
+  width: 409PX;
+
+}
+
+/* Api de google maps */
+.google-maps img{
+  /* border: solid 2px red; */
+  width: 100%;
+  height: 508px;
+  border: solid 1px rgba(251,145,10, .3);
+
+}
+
+
+
+/* CONTENEDOR PRINCIPAL CENTRO INFORMAITN-CONTACT */
+.principal-centre-information-contact{
+  height: 100%;
+  /* background-color: #dd0b0b;
+  border: solid 5px #0240f8; */
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px  rgba(251,145,10, .3);
+}
+
+/* contenedpor infomacion  centro perso arriba */
+.container-principal {
+  width: 99%;
+  height: 100px;
+  /* background-color: #f84802; */
+  
+
+}
+
+.container-principal .item-info {
+  width: 99%;
+  height: 40px;
+  margin: 5px;
+  /* background-color: #07ee12; */
+}
+
+.flex-itemi-info-perso p{
+  color : #fb910a;
+  font-size: 17px;
+  padding: 10px;
+  }
+
+
+
+/* ////////    CONTENEDOR SOCIAL   ////// */
+
+/* contenedor principal de los iconos sociales */
+.icones-devolopper{
+  height: 79%;
+    /* background-color: #5f0bdd;
+  border: solid 5px #02f840; */
+  width: 30%;
+
+}
+
+.icones-devolopper .center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+.icones-devolopper #social-test {
+
+  /* vertical-align: middle; */
+  text-align: center;
+  font-size: 30px;
+
+}
+.icones-devolopper #social-test h2 {
+  color: #fff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 100;
+}
+.icones-devolopper #social-test .social {
+
+  margin-top: 10px;
+}
+.icones-devolopper #social-test li {
+  color: rgba(167, 146, 129, 0.6);
+  list-style-type: none;
+  display: inline-block;
+  width: 50px;
+  height: 45px;
+  line-height: 35px;
+  padding: 1%;
+  border: 1px solid rgba(167, 146, 129, 0.4);
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  transition: ease 0.3s;
+}
+.icones-devolopper #social-test li:hover {
+  color: #a79281;
+  border: 1px solid #a79281;
+}
+.icones-devolopper .social:hover > li {
+  opacity: 0.5;
+}
+.icones-devolopper .social:hover > li:hover {
+  opacity: 1;
+}
+
+/* FIN DE LOS ICONOS SOCIALES */
+/* contenedor principal derecha la LINKS REDES SOCIALES */
+.container-devolopper-text-links{
+  height: 79%;
+  /* background-color: #cff307;
+  border: solid 5px #2702f8; */
+  width: 70%;
+}
+
+.container-devolopper-text-links .liks-icons{ 
+  height: 64px;
+  /* background-color: #f30762;
+  border: solid 5px #2702f8; */
+  width: 99%;
+
+}
+
+.liks-icons p{
+color : #fb910a;
+font-size: 20px;
+padding: 20px;
+}
+
+
+
+/* CONTENEDOR CONTACTAME */
+
+.principal-droit-abouts-me{
+
+  height: 500px;
+  /* background-color: #0bd3ee;
+  border: solid 5px #0240f8; */
+  width: 40%;
+}
+
+.container {
+  width: 105%;
+
+  margin-left: -15px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #393D3F;
+  height:508px;
+ 
+}
+.card .card-header {
+  text-align: center;
+  padding: 15px 0;
+}
+.card .card-header .card-title {
+  font-size: 1.5em;
+  color:  #fb910a;
+  width: 60%;
+  padding-bottom: 15px;
+  margin: 15px auto;
+  border-bottom: 2px solid  #fb910a;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px 25px;
+  height: 400px;
+
+}
+.form .input  {
+  background-color: #393D3F;
+  color: #fb910a;
+  display: block;
+  padding: 10px 0 25px 0;
+  border: none;
+  border-bottom: 0.4px solid rgba(255, 255, 255, 0.3);
+  margin: 10px 0;
+  outline: none;
+  transition: all .5s;
+}
+
+.form .input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.form .input:focus {
+  padding: 10px 0 35px 0;
+}
+.form .input:focus::-webkit-input-placeholder {
+  color:  #fb910a;
+}
+.form .btn {
+  display: inline-block;
+  background-color:  #fb910a;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 25px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.form .btn:hover {
+  background-color: #ff5a5f;
+  color: #fff;
+}
+

@@ -1,0 +1,98 @@
+
+/*/CONTAINER PAHE SCROOLL*/
+
+.horizontal-scroll {
+
+	 /* display: none;     */
+	width: 100vh;
+	height: 99vw;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	padding: 30px;
+	-webkit-transform-origin: right top;
+			transform-origin: right top;
+	-webkit-transform: rotate(-90deg) translate3d(0, -100vh, 0);
+			transform: rotate(-90deg) translate3d(0, -100vh, 0);
+  }
+  .horizontal-scroll > * {
+
+	-webkit-transform-origin: left top;
+			transform-origin: left top;
+	-webkit-transform: rotate(90deg) translate3d(0, calc(-100vh + 60px), 0);
+			transform: rotate(90deg) translate3d(0, calc(-100vh + 60px), 0);
+  }
+  .horizontal-scroll__block {
+	margin-left: 10px;
+	margin-top: 220px;/*este es magen izquirdo de mis hojas a4*/
+	margin-bottom:-490px;
+	width:500px;
+	height:965px;
+	background: #FDFFFC;
+	position: relative;
+  }
+  .horizontal-scroll__block:not(:first-child) {
+	margin-top: 30px;
+
+  }
+
+/*///////// TOUTES MES SECTIONS PARLONS DE MOI ////////*/
+/*Primera section de profil */
+  #seccion-profil{
+	width:500px;
+	height:100%;
+	background-color: rgb(190, 150, 143);
+	overflow: hidden;
+	overflow-y: scroll;
+	box-sizing: border-box;
+  }
+
+  #seccion-profil #image-logo-profil{
+	display: flex;
+	justify-content: center;
+
+  }
+
+ #section-content1{
+	
+	background-color: #1b1919;
+	padding: 40px;
+	width: 100%;
+	font-size: 25px;
+ }
+
+
+ #section-content1 h1{
+	margin: 10px;
+	/* background-color: darkgoldenrod; */
+	padding: 10px;
+  width: 100%;
+  color: #fff;
+	
+ }
+
+ #section-content1 h3{
+	margin: 10px;
+  /* background-color: darkgoldenrod; */
+  color: #fff;
+	padding: 10px;
+	width: 100%;
+	
+ }
+ #section-content1 p{
+	margin: 10px;
+  /* background-color: darkgoldenrod; */
+  color: #fff;
+	padding: 10px;
+	width: 100%;
+	font-size: 20px;
+
+ }
+
+ #seccion-profil .separateur{
+	background-image: url("/img/separador.png");
+	height: 50px;
+	background-position: center;
+}
+
+

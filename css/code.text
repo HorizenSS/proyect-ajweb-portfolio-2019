@@ -1,0 +1,172 @@
+
+<!-- <form method="post" action="formulario.php" class="form-regrister">
+														<h2 class="form_titulo">Creer votre compte utilisateur</h2>
+														<div class="contenedor-inputs">
+															<input type="text" name="premon"
+																placeholder="Votrer prenom"/ class="input-48" required>
+															<input type="tetx" name="nom" placeholder="Votre nom"/
+																class="input-48" required>
+															<input type="text" name="email" placeholder="votre mail"/
+																class="input-100" required>
+															<input type="text" name="téléphone" placeholder="Télephone"/
+																class="input-100" />
+															<input type="url" name="homepage" placeholder="https://www"/
+																class="input-200" />
+
+															<textarea name="message" cols="50" rows="3"
+																placeholder="Ecrivez votre message"/ class="input-100"
+																id="textarea"></textarea>
+															<input type="button" value="Envoyer" id="boton"
+																class="btn-enviar">
+															<form> -->
+
+
+css
+SECTION FORM
+
+h1{
+	color:#21618C;
+	text-align:center;
+}
+
+.form-regrister{
+	background-color:#fff;
+	width:95%;
+	max-width:500px;
+	margin:auto;
+	border-radius:5px;
+	
+}
+
+.form_titulo{
+	background-color:deepskyblue;
+	color:#fff;
+	padding:20px;
+	text-align:center;
+	font-weight:100;
+	font-size:30px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom:5px solid #F5B041
+	
+	
+}
+
+.contenedor-inputs{
+	padding:10px 30px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+
+	
+	
+}
+
+input{
+		margin-top:20px;
+		padding:15px;
+		font-size:16px;
+		border-radius:3px;
+		border: 1px solid darkgray;
+}
+
+textarea{
+	margin-top:20px;
+	padding:15px;
+	font-size:16px;
+	border-radius:3px;
+	border: 1px solid darkgray;
+}
+
+.input-48{
+	width:48%;
+	
+}
+
+.input-100{
+	width:100%;
+}
+
+.btn-enviar{
+	background-color:#F5B041;
+	color:#fff;
+	margin:auto;
+	padding:10px;
+	margin-top:20px;
+	cursor:pointer;
+	font-size:20px;
+	width:100%;
+	height: 70px;
+	border-radius: 5px;
+	border: solid 3px  #F5B041;
+	background-color:deepskyblue;
+	
+}
+.btn-enviar:hover{
+
+	border: solid 3px deepskyblue;
+	background-color: rgb(238, 131, 44);
+}
+
+
+#boton:active{
+	transform:scale(1.10);
+	
+	
+}
+
+.form_link{
+	width:100%;
+	margin:10px;
+	font-size:14px;
+	color:deepskyblue;
+	
+}
+
+
+*////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+.no-sub .btn-menu {
+	color: rgb(156, 155, 152);
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+}
+
+.no-sub .btn-menu span{
+	color: rgb(187, 235, 17);
+}
+
+.seccion1,
+.seccion1 .wrap{
+	height: 100%;
+}
+
+.seccion1 .wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.caption-main h1{
+	font-size: 95px;
+	font-weight: 800;
+	color: #fff;
+}
+
+
+
+.caption-main .btn-view{
+	display: block;
+	margin: 50px auto 0px;
+	width: 350px;
+	padding: 20px 0px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	font-size: 20px;
+	color: rgb(100, 231, 24);
+	text-decoration: none;
+}

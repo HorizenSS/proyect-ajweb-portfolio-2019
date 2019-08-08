@@ -1,0 +1,817 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+  	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'open sans';
+  background-image: url("/img/background-Night-Call.png");
+  width: 100%;
+  height: 6000px;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #1c16c5;
+  
+}
+
+.content-wrapper{
+  margin: auto;
+	width: 90%;/*85% de totalidad
+background: rgb(47, 3, 194); */
+	/* background-image: url("/img/colon.jpg"); */
+	background-repeat: no-repeat;
+}
+
+
+/*------------CONTENEDOR BANNER COMPLETA DE LA REDES SOCIALES -------------------*/
+
+/* contenedor de mis redes sociales */
+.container-social{
+  width: 99.8%;
+  height: 90px;
+  /* background-color: #3C41CF; */
+  /* border-top: 5px solid #FB910A; */
+  /* border-bottom: 3px solid #FB910A; */
+
+  padding: 10px;
+  margin-left: 1px;
+  /* box-shadow: 5px 2px 10px black; */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+.menu {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color:  #FB910A;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  bottom: 20px;
+  left: 20px;
+
+}
+.menu:hover {
+  pointer-events: all;
+}
+.label {
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.spacer {
+  display: inline-block;
+  width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+.spacer:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.7s;
+}
+.item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+span {
+  transition: color 0.5s ease;
+  font-size: 20px;
+}
+.item:hover span {
+  color: #2600ff;
+}
+.menu:hover .spacer:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+.menu:hover .item {
+  opacity: 1;
+  top: 0px;
+}
+.item:nth-child(1) {
+  transition-delay: 0.45s;
+}
+.item:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.item:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.item:nth-child(5) {
+  transition-delay: 0.25s;
+}
+.item:nth-child(6) {
+  transition-delay: 0.2s;
+}
+.item:nth-child(7) {
+  transition-delay: 0.15s;
+}
+.item:nth-child(8) {
+  transition-delay: 0.1s;
+}
+.item:nth-child(9) {
+  transition-delay: 0.05s;
+}
+.item:nth-child(10) {
+  transition-delay: 0s;
+}
+.menu:hover .item:nth-child(1) {
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.menu:hover .item:nth-child(3) {
+  transition-delay: 0.35s;
+}
+.menu:hover .item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.menu:hover .item:nth-child(5) {
+  transition-delay: 0.45s;
+}
+.menu:hover .item:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.menu:hover .item:nth-child(7) {
+  transition-delay: 0.55s;
+}
+.menu:hover .item:nth-child(8) {
+  transition-delay: 0.6s;
+}
+.menu:hover .item:nth-child(9) {
+  transition-delay: 0.65s;
+}
+.menu:hover .item:nth-child(10) {
+  transition-delay: 0.7s;
+}
+
+/*-----   ///// TODA LA SECTION GLOBAL DEL CONTENDOR PLANIFICATION /////------*/
+/* dentro de esta section colocartemos en banner */
+
+.container-systeme-information {
+  width: 100%;
+
+  /* background-image: url("/img/background-Night-Call.png"); */
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  margin-top: -20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+
+
+
+/*--  ///// SECTION DEL CONTENDOR PLANIFICATION COLOM IZ/CENTRO/DEREC /////---*/
+.flex-container-colom-global{
+  /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+  /* border:solid 2px  #FB910A; */
+  /* box-shadow: 5px 2px 10px black; */
+  width: 100%;
+  height: 900px;
+  display: flex;
+  margin-top: -20px;
+
+}
+
+
+/*-----   /////   CONTENEDOR COLUMNA IZQUIERDO   /////-------------- */
+
+.flex-container-colom-guache{
+width: 40%;
+/* border:solid 2px #fff; */
+  margin: 5px;
+
+}
+/* Aqui colocaremos enlaces directos en la parte de arriba */
+.item-icone-izquierda{
+  width: 100%;
+  height: 50px;
+  /* background-color:  #FB910A; */
+  /* box-shadow: 5px 2px 10px black; */
+}
+
+
+
+
+  /*-------- CONTAINER SOUS TITULOS COLUMNA IZQUIERDA -------------*/
+
+.flex-container-sous-titre-guache{
+  border-left:solid 3px  #FB910A;
+  margin-left: 40px;
+  height: 100px;
+  width: 500px;
+  /* background-color: orangered; */
+}
+
+/* container subtitulo planification */
+.flex-container-sous-titre-guache h2{
+  /* background-color: antiquewhite; */
+  margin-top: 20px;
+  width: 500px;
+  margin-left: 40px;
+  color: #a79281;
+ 
+}
+/* texto subtitulo planification */
+.flex-container-sous-titre-guache p{
+  margin-top: 10px;
+  margin-left: 60px;
+  color: #ffffff;
+
+}
+
+/*------------ PARTE TEXTO CENTRAL DE LA COLUMNA IZQUIERDA-------------------*/
+
+/* parrafo objectives contenedor izquierda arriba */
+.item-text-objectives{
+  color:#fff;
+  margin-left: 300px;
+  margin-top: 100px;
+ 
+}
+
+/* border completo de izquierda a derecha arriba */
+.hr-1{
+  border: 5px solid #fff;
+  margin-left: 500px;
+  width: 650px;
+  margin-top: -15px;
+  box-shadow: 5px 2px 10px black;
+}
+/* titulo del contenedor izquierdo */
+h1{
+  color:#fff;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+/* texto objectives contenedor izquierda abajo */
+.item-text-fontionalite{
+  color:#fff;
+  margin-left: 300px;
+  margin-top: 230px;
+}
+
+/* border completo de izquierda a derecha abajo */
+.hr-2{
+  border: 5px solid #fff;
+  margin-left: 500px;
+  width: 300px;
+  margin-top: -15px;
+  box-shadow: 5px 2px 10px black;
+}
+
+/*-----   /////   CONTENEDOR COLUMNA CENTRAL   /////-------------- */
+
+/* contenedor central con bordura blanca */
+.flex-container-colom-centre{
+  width: 20%;
+  /* border:solid 2px #fff; */
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+/* Aqui colocaremos enlaces directos en la parte de arriba del centro */
+  .item-icone-centro{
+    width: 100%;
+    height: 100px;
+    /* background-color: #FB910A; */
+  
+  }
+
+  /* contenedor central naranja */
+.flex-item-informaiton{
+  width: 150px;
+  height: 650px;
+  background-color :rgb(253, 83, 4);
+  box-shadow: 5px 2px 25px 1px black;
+  margin: 100px auto;
+  z-index: 100;
+
+
+}
+/* titulo del contendor central information */
+.flex-item-informaiton h1{
+  color:rgb(255, 255, 255);
+  transform: rotate(90deg);
+  margin: 60px auto ;
+  font-size: 80px;
+}
+
+
+/* --------------CONTENEDOR COLUMNA DERECHA --------------*/
+
+/* contenedor central con bordura blanca derecha*/
+  .flex-container-colom-derecha{
+    width: 40%;
+    height: 50px;
+    /* border:solid 2px #fff; */
+
+      margin: 5px;
+    }
+
+    /* Aqui colocaremos enlaces directos en la parte de arriba del centro */
+    .item-icone-derecha{
+      width: 100%;
+      height: 100px;
+      /* background-color: #FB910A; */
+
+    }
+
+
+/* <!----------------MENU  REGISTROS ----------> */
+.block-menu{
+  display: block;
+  /* background: #FB910A;; */
+  /* background-color:  #FB910A; */
+  /* box-shadow: 5px 2px 10px black; */
+  text-align: center;
+  width: 84%;
+  
+}
+
+.block-menu li{
+  display: inline-block;
+}
+
+.block-menu li a{
+  padding: 15px 10px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-smoothing: antialiased;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 22px;
+  overflow: visible;
+}
+
+
+.three-d{
+  perspective: 200px;
+  transition: all .7s linear;
+  position: relative;
+  cursor: pointer;
+}
+
+.three-d:hover .three-d-box,
+.three-d:focus .three-d-box{
+  transform:  translateZ(-25px) rotateX(90deg);
+}
+
+.three-d-box{
+  transition: all .3s ease-out;
+  transform: translateZ(-22px);
+  transform-style: preserve-3d;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.front{
+  transform: rotateX(0deg) translateZ(25px);
+  background: #660FF7;
+  color: #FB910A;
+  font-weight: 100;
+}
+
+.back{
+  transform: rotateX(-90deg) translateZ(25px);
+  background: #FB910A;
+  
+  font-weight: bold;
+
+  color: white;
+}
+
+.front,
+.back{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px 10px;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+
+/*---  /////   CONTENEDOR ICONO PINTEREST CONTENEDOR DERECHP /////---------- */
+
+/* icono pinterest */
+.item-icone-derecha .item-icone-pinterest img{
+  /* width: 50px; */
+  height: 50px;
+  transform: rotate(40deg);
+  /* border:solid 2px #fff; */
+  float: right;
+  display: block;
+  margin-top: -50px;
+
+}
+.paragraphe-pinterst{
+  color:#fff;
+  float: right;
+  transform: rotate(-45deg);
+  margin-right: 35px;
+  margin-top: -40px;
+
+  width: 70px;
+  /* background-color: orangered; */
+}
+
+.paragraphe-pinterst a{
+color:#fff;  
+text-decoration: none;
+/* border-bottom:solid 3px orangered; */
+
+
+}
+
+.paragraphe-pinterst a:hover{
+/* color:orangered; */
+  border-bottom:solid 3px #FB910A;
+  
+  
+  }
+
+/*------------ PARTE TEXTO CENTRAL DE LA COLUMNA DERECHA-------------------*/
+.flex-container-sous-titre-droit{
+  border-right:solid 3px  #FB910A;
+  height: 100px;
+  width: 500px;
+  /* background-color: orangered; */
+}
+
+/* container subtitulo planification */
+.flex-container-sous-titre-droit h2{
+  /* background-color: antiquewhite; */
+  margin-top: 20px;
+  width: 500px;
+  margin-left: 40px;
+  color: #a79281;
+
+}
+/* parrafo objectives contenedor derecha arriba */
+.flex-container-sous-titre-droit p{
+    margin-top: 10px;
+  margin-left: 60px;
+  color: #faf9f8;
+
+}
+
+
+.item-text-arboresence{
+  color:#fff;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+/* titulo del contenedor derecha */
+h1{
+  color:#fff;
+  margin-top: 150px;
+  margin-left: 70px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+
+
+/*------------ ICONO LATIDOS CORAZON DE LA COLUMNA DERECHA-------------------*/
+.icone-live-line {
+  width: 98%;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: -140px;
+ }
+
+
+
+/*bordura de color naranja */
+.btn-live-line{
+  width: 180px;
+  height: 180px;
+  float: right;
+  border-radius: 50%;
+  margin-top:-190px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: solid 2px#FB910A;
+  padding: 20px;
+}
+
+.explorer-type-1{
+transform: rotate(90deg);
+margin-top:30px;
+border: solid 2px #FB910A;
+padding: 20px;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.explorer-type-1 a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.explorer-type-1:hover{
+background-color: #FB910A;
+}
+
+.explorer-type-1 a:hover{
+color: rgb(18, 44, 211);
+ }
+
+
+/* ------------container-banner--------------- */
+
+
+ .container-global-banner{
+  background-color:  rgb(15, 9, 197);
+  /* box-shadow: 5px 2px 10px 2px black; */
+	padding: 0;
+	box-sizing: border-box;
+  background-image: url("/img/background-Night-Call.png");
+  width: 100%;
+  height: 300px;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #1c16c5;
+  background-repeat: no-repeat, center;
+    background-size: cover;
+    margin-top: -20px;
+  
+  } 
+
+  .icone-live-line-banner {
+    width: 50%;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: -8px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*---------------- CONTAINER BUTTON SEARCH -----------------------*/
+
+
+
+
+  .container-search{
+    width: 100%;
+    height: 150px;
+    /* background-color:  #FB910A; */
+
+    
+  } 
+
+  *
+{
+    outline: none;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: absolute;
+    margin-left: 5px;
+    width: 85%;
+    height: 85px;
+    padding: 35px;
+    margin:45px 100px;
+    /* background-color:  #FB910A; */
+    box-shadow: 5px 5px 20px rgb(12, 12, 12);
+}
+
+form
+{
+    height: 96px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 50px;
+    font-size: 60px;
+    line-height: 1;
+     margin-top: -20px;
+}
+
+input[type="text"]::placeholder
+{
+    color: #272525;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+  margin-top:-20px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -50;
+    border-width: 15px;
+    border: 10px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+  margin-top: 5px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    display: block;
+    width: 30px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    -webkit-transform: rotateZ(52deg);
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: 1px;
+    width: 70px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 40%;
+    left: 56px;
+    width: 25px;
+    margin-top: -2px;
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    -webkit-transform: rotateZ(52deg);
+            transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    -webkit-transform: rotateZ(-52deg);
+            transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+
+  .container-solution{
+
+    background-color:  rgb(193, 221, 11);
+  width: 100%;
+  height:200px;
+  }
+
+  .site__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  #222222;
+    font-size: 25px;
+    height: 80px;
+    color: #fff;
+    /* background-image: url("/img/background-Night-Call.png"); */
+    padding: 20px;
+    border-top: solid 1px #ccc;
+  }
+
+  /* ---------------BANNER-SOLUTION ------------------------*/
+
+/* CONTAINER FOOTER*/
+ .container-footer{
+  /* border-top: 2px solid #FB910A;  */
+  /* box-shadow: 5px 2px 10px 2px black;  */
+ background-color:  rgb(145, 224, 17);
+  width: 100%;
+  height: 1000px; 
+
+  
+}  
+
+

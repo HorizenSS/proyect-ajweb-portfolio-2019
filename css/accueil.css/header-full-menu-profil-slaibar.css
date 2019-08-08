@@ -1,0 +1,92 @@
+
+/* FULL MENU PROFIL GUAGHE ACCUIEL ===================*/
+/*container-global .on-clic*/
+.full-menu{
+	 /* display: none; /*PARA VOLVER HA VER EL MENU SCROLL */
+	z-index: 0;
+	margin-bottom: 50px;
+	position: absolute;
+	top: 590px;
+	/* left: 300%; */
+	width: 100%;
+	height: 100vh; 
+z-index: 100;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+	margin-top: 100px;
+}
+
+/*cntainer-principal-menu (logo, descriton, liens)*/
+.full-menu #menu-container{
+	/* top: -86px;margen top de mi menu li */
+	background-color: brown;
+	/* border: solid 3px rgb(233, 229, 220); */
+	width:250px;
+	height: 97vh; 
+	z-index: 100;
+	margin-top: 20px;
+	background-color: #222;
+	position: absolute;
+	text-align: center;
+
+}
+
+/*SECTION LOGO*/
+/*logo-description-titre-logo*/
+
+#menu-container #logo-menu{
+	padding: 20px;
+
+}
+
+#menu-container #logo-menu #logo-name P{
+	color:#eee;
+	font-size:25px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#menu-container #logo-menu #logo-description{
+	color:#bbb;
+	font-size:20px;
+}
+
+/*SECTION MENU LIST*/
+/*container-principal-menu-list*/
+.full-menu #menu-container #menu{
+	border-bottom: solid 2px #888;
+	border-top: solid 2px #888;
+	margin: 0;
+	text-align: center;
+
+}
+
+#menu-container #menu li{
+	list-style: none;
+	margin: 0px;
+	 padding:8px;
+	 border-bottom: solid 2px #888;
+}
+
+
+#menu-container #menu li:hover{
+	list-style: none;
+	margin: 0px;
+	 /* padding:10px;
+	 background: rgb(11, 212, 72); */
+}
+
+#menu-container #menu li a{
+	color:#FCB95B;
+	text-decoration: none;
+
+}
+#menu-container #menu li a:hover{
+	transition: ALL 0.3s;
+	color:#F5DFCE;
+	padding: 10px;
+	
+}
+
+

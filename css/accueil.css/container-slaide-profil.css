@@ -1,0 +1,921 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans";
+}
+/* A. CONTENEDOR GLOBAL SLAIDE PROFIL DE COLOR AZUL*/
+.flex-container-slaide-profil {
+  /* background-image: url("/img/background-Night-Call.png"); */
+  background-color: #292929;
+  width: 100%;
+  height: 1000;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+/* /////////// CONTAINER IZQUIERDO ///////////// */
+
+/* B. CONTAINER-BACKGROUD-GLOBAL-IZQUIERDO DE COLOR BEIGE */
+.container-global-background-izquierda {
+  background-color: #a79281;
+  width: 51%;
+  height: 1000px;
+  z-index: 1;
+  /* box-shadow:5px 5px 10px 7px rgba(0,0,0,0.8); */
+}
+/* C. CONTAINER-PRINCIPLA-IZQUIERDO DE COLOR NEGRO */
+.container-principal-izquierdo {
+  background-color: #292929;
+  width: 96%;
+  height: 900px;
+  float: right;
+  margin-top: 50px;
+  /* box-shadow: 30px 10px 20px 20px rgb(3, 0, 0) */
+  box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------------     SECTIION N° 1 IZQUIERDA LINKS   ----------------------- */
+
+/* 1.1 containres-de contenido izquierda de color rojo*/
+.container-1-principal-arriba-izquierda-text {
+  /*background-color: #eb0a0a;*/
+  width: 100%;
+  height: 350px;
+  display: flex;
+  padding: 10px;
+}
+
+/*---------------*/
+
+/* 1.3 contenedor para titulo izquierda web designert*/
+.container-1-titre-web-designer {
+  color: rgb(5, 5, 5);
+  max-width: 19%;
+  height: 100%;
+  font-size: 25px;
+  /*background-color: #faf201;*/
+  margin-left: -12px;
+}
+
+/* 1.3 titulo izquierda web designert*/
+.container-1-titre-web-designer p {
+  color: #fa5306;
+  padding: 10px;
+  transform: rotate(-90deg);
+  width: 300px;
+  margin-left: -135px;
+  margin-top: 150px;
+}
+
+/*----------------------*/
+
+/* 1.2 contenedor content links de color naranja*/
+.container-1-links-texte-izquierda {
+  /*background-color: #fa5306;*/
+  color: #fff;
+  width: 65%;
+  height: 100%;
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*------------------*/
+.container-date-guache {
+  /* background-color: #210aeb;*/
+  width: 96%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-date-guache h3 {
+  color: #a79281;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+}
+/*------------------*/
+.container-links-guache-a {
+  /*background-color: #210aeb;*/
+  /*border: solid 2px rgb(192, 10, 25);*/
+  width: 35%;
+  height: 76%;
+  display: flex;
+  flex-direction: column;
+}
+/*--------cÔTé GUACHE----------*/
+
+.flex-items-numbers-guache-a {
+  /*background-color: #3f3c5f;*/
+  border: solid 2px fa5306;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-items-numbers-guache-a p {
+  /* background-color: #465f3c;*/
+  border: solid 2px #fa5306;
+  color: #fa5306;
+  width: 70px;
+  height: 45px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/*---------CÔTé DROIT ---------*/
+.container-links-guache-b {
+  /* background-color: #37eb0a;*/
+  /*border: solid 2px #fa5306;*/
+  width: 62%;
+  height: 76%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-items-numbers-guache-b {
+  /* border: solid 2px rgb(10, 192, 192);*/
+  width: 100%;
+  height: 29%;
+}
+
+.flex-items-numbers-guache-b .container-link {
+  border-bottom: solid 2px #fa5306;
+  width: 230px;
+  height: 30px;
+  margin-left: -50px;
+}
+
+.container-link p {
+  font-size: 0.8em;
+  width: 190px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+/*----  // SECTIION N° 4 DERECHA LINKS // --------*/
+
+/* 4.1 contenido de container-principal-derecho color violeta" */
+.container-4-arriba-derecho-principal-text {
+  /*background-color: #3c0379;*/
+  width: 100%;
+  height: 350px;
+  display: flex;
+  padding: 10px;
+}
+
+/*-----------------------*/
+/*42. containres- izquierda de color AZUL CIELO para titulo*/
+.container-4-titre-web-devolopper {
+  color: rgb(5, 5, 5);
+  width: 19%;
+  height: 100%;
+
+  /*background-color: #0adcf3;*/
+  margin-left: 170px;
+}
+
+/* 1.3 titulo izquierda web designert*/
+.container-4-titre-web-devolopper p {
+  color: #fa5306;
+  padding: 10px;
+  transform: rotate(-270deg);
+  width: 300px;
+  margin-left: -90px;
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*-----------------------*/
+/* 4.3 containres izquierda de color marron claro para links*/
+.container-4-links-texte-derecha {
+  color: wheat;
+  width: 61%;
+  height: 100%;
+  font-size: 25px;
+  /*background-color: #b1aca9;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*------------------*/
+
+.container-links-droit-c {
+  /*background-color: #cc4008;*/
+  /*border: solid 2px rgb(192, 10, 25);*/
+  width: 62%;
+  height: 76%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-items-numbers-droit-c {
+  /*background-color: #3f3c5f;*/
+  /*border: solid 2px #cc4008;*/
+  width: 100%;
+  height: 30%;
+}
+
+.flex-items-numbers-droit-c .container-link {
+  border-bottom: solid 2px #cc4008;
+  width: 230px;
+  height: 30px;
+  margin-left: 40px;
+}
+
+.flex-items-numbers-droit-c .container-link p {
+  font-size: 0.8em;
+  width: 190px;
+  height: 40px;
+  margin-left: -10px;
+  color: #fff;
+}
+
+/*-------- NUMBERS ----------*/
+.container-links-droit-d {
+  /* background-color: #37eb0a;*/
+  /*border: solid 2px rgb(192, 10, 25);*/
+  width: 38%;
+  height: 76%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-items-numbers-droit-d {
+  /*background-color: #f3db06;*/
+  /*border: solid 2px rgb(192, 10, 55);*/
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-items-numbers-droit-d p {
+  /* background-color: #f5b17b;*/
+  border: solid 2px #cc4008;
+  color: #cc4008;
+  width: 70px;
+  height: 45px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/*------------------*/
+
+/*-----------------------*/
+.container-date-droit {
+  /* background-color: #210aeb;*/
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-date-droit h3 {
+  color: #292929;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*-----------------------*/
+
+/* ------------------   FIN DE N°4   ----------------------- */
+
+/*---- ///  CONTENT DE ARRIBA  N°5 FONDO AZUL   ///----------------*/
+
+/* 5.1 container fondo-principal */
+.container-5-derecha-fondo {
+  /* background-color: #d17b0a; */
+  width: 100%;
+  height: 350px;
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/*5.2 container-principal-video color azul*/
+.container-4-titre-video {
+  color: rgb(5, 5, 5);
+  width: 19%;
+  height: 100%;
+  font-size: 25px;
+  /* background-color: #0d6fe7; */
+  margin-left: 65px;
+  z-index: 199;
+  margin-left: 170px;
+}
+/*5.3 section-video color azul*/
+.container-video {
+  border: solid 5px #a79281;
+  margin-top: 108px;
+  margin-left: 17px;
+  width: 265px;
+  height: 154px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* 5.4 containres-de contenido derecha de color marron claro*/
+.container-4-links-texte-nada {
+  color: wheat;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  /* background-color: #d8151f; */
+  display: flex;
+  padding: 10px;
+}
+
+/* ------------------   FIN DE N°5   ----------------------- */
+
+/* ---------------     SECTIION N° 2    ----------------------- */
+
+/* 2.1 containres-de contenido izquierda de color verde*/
+.container-2-principal-centre-izquierda {
+  /*background-color: #30eb0a;*/
+  width: 100%;
+  height: 350px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+}
+/*2.2  contenedor izquierda texto filo de color maroon claro*/
+.container-2-filo-texte-derecha {
+  width: 60%;
+  height: 100%;
+  /* background-color: #e09d7e; */
+}
+
+.container-2-filo-texte-derecha .container-sous-titre {
+  width: 100%;
+  height: 50px;
+  /* background-color: rgb(141, 66, 66); */
+  display: flex;
+}
+
+.container-sous-titre p {
+  color: #a79281;
+  /* background-color: rgb(235, 14, 14); */
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.container-2-filo-texte-derecha .container-philosophie {
+  width: 100%;
+  height: 150px;
+  /* background-color: rgb(238, 4, 101); */
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+}
+
+.container-philosophie p {
+  width: 80%;
+  height: 250px;
+  /* background-color: rgb(40, 14, 190); */
+  display: flex;
+  margin-left: 30px;
+  color: white;
+}
+
+/* 2.3 containres- izquierda de color rosa vacio*/
+.container-2-titre-nada {
+  /* color: rgb(141, 66, 66); */
+  width: 19%;
+  height: 100%;
+  font-size: 25px;
+  /* background-color: #f395a5; */
+}
+/* ------------------   FIN DE N° 2   ----------------------- */
+
+/*---------------CONTENT DE ARRIBA  N°3--------------------------------------*/
+
+/* 2.1 contenedor principal izquierda bajo de color amarillo*/
+.container-3-global-abajo-izquierda {
+  /* background-color: #d5f506; */
+  width: 100%;
+  height: 180px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 2.2 containrer izquierda abajo de color lila nombre*/
+.container-3-abajo-izquierda-principal {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  /* background-color: #4e13e4; */
+}
+
+.container-3-abajo-izquierda-principal .container-nom{
+  width: 100%;
+  height: 50px;
+  /* background-color: violet; */
+  margin-left: 30px;
+}
+
+
+
+.container-nom .nom{
+  color: #a79281;
+  /* background-color: #0652f5; */
+  width: 30%;
+  height: 50px;
+  text-align: left;
+  font-weight: bold;
+
+
+}
+
+/* 3.3 containres-de contenido izquierda de color roijo*/
+.container-3-frases-izquierda {
+  color: rgb(5, 5, 5);
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  background-color: #e20d31;
+}
+/* 3.4containres-de contenido izquierda de color azul cielo*/
+.container-3-paginacion-izquierda {
+  color: rgb(5, 5, 5);
+  width: 30%;
+  height: 80px;
+  font-size: 25px;
+  background-color: #09d4eb;
+}
+
+/*---PAGINATION*/
+.page {
+  width: 100%;
+height: 105px;;
+background-color: #a79281;
+ margin-top: -10px;
+  padding: 0 1rem 1.5rem;
+  box-shadow: 5px 2px 25px 1px black;
+}
+
+.posts {
+  margin-bottom: 0rem;
+ color: #fff;
+
+}
+
+.pagination {
+  height: 30px;
+  background-color: #faf8f8;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 2px 25px 1px black;
+}
+
+.numbers {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prev {
+  visibility: hidden;
+}
+
+.prev,
+.next {
+  font-weight: 500;
+}
+
+.prev,
+.next,
+.number {
+  padding: 0.5rem;
+  color: rgb(17, 17, 17);
+  cursor: pointer;
+}
+.prev:hover,
+.next:hover,
+.number:hover {
+  background-color: #a79281;
+}
+
+.currentNumber {
+  background-color: #a79281;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------   FIN DE N°3   ----------------------- */
+
+/*---------------CONTENT CENTRO PHOTO PROFIL------------------*/
+
+/* C-1 contenedor global central con bordura blanca */
+.flex-container-global-colom-centre {
+  width: 0%;
+  /* border:solid 2px #fff; */
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 420px;
+}
+
+/* C-2 contenedor central photo profil beige */
+.flex-item-informaiton {
+  width: 400px;
+  height: 727px;
+  background-color: #a79281;
+  box-shadow: 5px 2px 25px 1px black;
+  z-index: 100;
+  margin-left: -175px;
+  margin-top: -365px;
+  background-image: url("/img/photo-profil-slaide-home.jpg");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* titulo del contendor central information */
+.flex-item-informaiton h1 {
+  color: rgb(255, 255, 255);
+  transform: rotate(90deg);
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+/* C-3 contendorprincipal photo pequena central information */
+.container-photo {
+  margin-left: 230px;
+  border: solid 5px #a79281;
+  margin-top: 470px;
+  width: 170px;
+  height: 150px;
+  background-color: #bd0f5d;
+  background-image: url("/img/di-caprio.jpg");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* C-3 contendorprincipal photo pequena central information */
+.container-photo {
+  margin-left: 230px;
+  border: solid 5px #a79281;
+  margin-top: 475px;
+  width: 151px;
+  height: 150px;
+  background-color: #bd0f5d;
+  background-image: url("/img/profil-jose.jpg");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* -----------  FIN COLUMNA CENTRAL PHOTO PROFIL C ---------------------- */
+
+/* /////////// CONTAINER DERECHO ///////////// */
+
+/* D- CONTAINER-BACKGROUD-GLOBAL-DERECHO DE COLOR NEGRO */
+.container-background-global-derecha {
+  background-color: #292929;
+  width: 56%;
+  height: 1000px;
+  z-index: 1;
+  /* box-shadow:5px 5px 10px 7px rgba(0,0,0,0.8); */
+}
+/* CONTAINER-PRINCIPAL-DERECHO DE COLOR BEIGE */
+.container-principal-derecha {
+  background-color: rgb(167, 146, 129);
+  width: 96%;
+  height: 900px;
+  margin-top: 50px;
+  /* box-shadow: 30px 10px 20px 20px rgb(12, 12, 12); */
+  box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.8);
+}
+
+
+.container-6-titre-pagination-derecha .container-nom-2{
+  width: 100%;
+  height: 50px;
+  /* background-color: violet; */
+
+}
+
+
+
+.container-nom-2 .nom-2{
+  color: #292929;
+  /* background-color: #0652f5; */
+  width: 30%;
+  height: 50px;
+  float: right;
+  font-weight: bold;
+
+}
+
+
+.container-nom-2 img{
+  color: #a79281;
+  /* background-color: #f5062e; */
+  width: 70%;
+  height: 100px;
+  float: left;
+  font-weight: bold;
+  margin-top: -25px;
+
+}
+
+
+
+
+/*---- ///  CONTENT DE ARRIBA  N°6 FONDO NARANJA   ///----------------*/
+/* 6.1 container fondo-principal */
+.container-6-abajo-derecha-bckground {
+  /* background-color: #fa3d03; */
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+/*6.2 containres-de contenido pagination derecha de color verde*/
+.container-6-titre-pagination-derecha {
+  color: rgb(5, 5, 5);
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  /* background-color: #0ee24a; */
+}
+
+/*6.3  containres-de contenido derecha de color azul*/
+/* .container-6-links-texte-frases {
+  color: wheat;
+  width: 30%;
+  height: 80px;
+  font-size: 25px;
+  background-color: #070f97;
+  display: flex;
+  padding: 10px;
+} */
+/*6.4  containres-titre-apellidos*/
+.container-6-titre-apellidos {
+  color: rgb(5, 5, 5);
+  width: 70%;
+  height: 80px;
+  font-size: 25px;
+  /* background-color: #f8e805; */
+}
+
+/* ------------------   FIN DE N°6   ----------------------- */
+
+
+
+
+.player {
+  background: #282524;
+  background: -moz-linear-gradient(top, #242628 0%, #000000 100%);
+  background: -webkit-linear-gradient(top, #242628 0%, #000000 100%);
+  background: linear-gradient(to bottom, #242628 0%, #000000 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#242628', endColorstr='#000000', GradientType=0);
+  position: relative;
+  width: 145%;
+  height: 105px;
+  z-index: 2;
+  margin-top: -30px;
+  margin-left: 5px;
+  box-shadow: 5px 2px 25px 1px black;
+
+}
+
+.splitTxt,
+.icons {
+  color:  #a79281;
+  box-shadow: 5px 2px 25px 1px black;
+}
+
+.trackDetails {
+  text-align: center;
+  margin: 4px auto;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #1e1e1e;
+  background: #000000;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.title,
+.artist {
+  color: rgb(245, 243, 243);
+  -moz-user-select: none;
+  left: 167px;
+ 
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.artist {
+  font-size: 20px;
+}
+
+.playlistIcon,
+.volumeIcon {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  height: 34px;
+  width: 32px;
+}
+
+.volumeIcon {
+  bottom: 6px;
+  display: block;
+}
+
+.controls {
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.controls .play,
+.controls .pause,
+.controls .rew,
+.controls .fwd {
+  float: left;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.controls .play,
+.controls .pause,
+.plIcon,
+.volumeIcon {
+  font-size: 26px;
+  
+}
+
+.controls .pause {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.controls .visible {
+  display: inline-block;
+}
+
+.tracker {
+  cursor: pointer;
+  height: 5px;
+}
+
+.ui-widget.ui-widget-content {
+  border: 0;
+}
+
+.ui-corner-all {
+  border-radius: 0;
+}
+
+.ui-slider .ui-slider-handle {
+  display: block;
+  height: 14px;
+  border-radius: 14px;
+  width: 14px;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.tracker .ui-slider-range {
+  background: #00dbde;
+  background: -moz-linear-gradient(left, #00dbde 0%, #fc00ff 100%);
+  background: -webkit-linear-gradient(left, #00dbde 0%, #fc00ff 100%);
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00dbde', endColorstr='#fc00ff', GradientType=1);
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+  height: 100%;
+  top: 0;
+}
+
+.volume .ui-slider-range {
+  background: #333333;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.volume.ui-widget-content {
+  background: #00dbde;
+}
+
+.ui-slider-handle {
+  cursor: pointer;
+  height: 10px;
+  margin-left: -5px;
+  top: 2px;
+  width: 10px;
+  z-index: 2;
+}
+
+.volume {
+  display: none;
+  right: 12px;
+  position: absolute;
+  top: 35px;
+  height: 100px;
+  width: 20px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.volume .ui-slider-handle {
+  display: none;
+}
+
+.playlist {
+  background-color: #1e1e1e;
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: none;
+  -webkit-transition: all ease-in-out .1s;
+  transition: all ease-in-out .1s;
+}
+
+.playlist li {
+  color: #eeeeee;
+  cursor: pointer;
+  margin-bottom: 4px;
+  padding: 6px 12px;
+  -webkit-transition: all ease-in-out .1s;
+  transition: all ease-in-out .1s;
+}
+
+.playlist li:hover {
+  background: #333333;
+}
+
+.playlist li.active {
+  font-weight: bold;
+  background: #000000;
+}
+
+.show {
+  display: block;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: 0;
+}
+
+.ui-widget-content {
+  background: #666666;
+}
+
+.cr {
+  color: #f9f9f9;
+  text-align: center;
+}

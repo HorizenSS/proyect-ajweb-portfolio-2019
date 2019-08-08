@@ -1,0 +1,123 @@
+
+/*-----------------SECTION ABOUTS-ME--------------------------------------*/
+/* contenedor-global-about-me */
+.flex-container-global-abouts-me {
+    position: relative;
+    /* border: solid 5px #0240f8; */
+    width: 90%;
+    height: 1100px;
+    display: flex;
+    margin: auto;
+    margin-top:350px;
+
+}
+/* contenedor-princial-about-me-izquierda */
+.container-principal-guache{
+    width: 50%;
+    height: 1220px;
+    /* border: solid 5px #dde903; */
+    background-image: url("/img/foto-profil3.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+/* contenedor-princial-about-me-derecha */
+.container-principal-droit{
+    width: 50%;
+    height: 800px;
+ background-color: #000;
+}
+/* contenedor-princial-about-me-derecha tittre */
+.container-haut{
+    width: 100%;
+    height: 100px;
+    /* border: solid 5px #dde903; */
+}
+
+/* contenedor-princial-about-me-derecha titre h1*/
+.container-haut h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  }
+
+/* contenedor-princial-about-me-derecha paragraphe */
+.container-bas{
+    width: 100%;
+    height: 500px;
+}
+
+/* contenedor-princial-about-me-derecha titre h2*/
+.container-bas h2{
+  color:  #fb910a;
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+/* contenedor-princial-about-me-derecha titre p*/
+.container-bas p{
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+  margin: 35px;
+  text-justify: distribute ;
+  line-height : 25px;
+
+
+}
+/* btn biographie */
+.btn-biographie{
+  width: 200px;
+  height: 75px;
+  margin: 10px 35px;
+  border: solid 2px  #fb910a;
+  margin-top: 100px;
+}
+
+/* la palabra explorer normal */
+.btn-biographie P{
+  cursor: pointer;
+  color: #fb910a;
+  border-bottom: solid 2px  #fb910a;
+  width: 250px;
+  margin: 20px 100px;
+}
+
+/* btn biographie */
+.btn-biographie:hover{
+  cursor: pointer;
+  width: 200px;
+  height: 75px;
+  margin: 20px 35px;
+  border: solid 2px #ffffff;
+  /* background-color: #ca431d; */
+  /* opacity: 0.9; */
+  margin-top: 100px;
+}
+
+/* p exploreren hover */
+.btn-biographie p:hover{
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: solid 2px #fdfdfd;
+  width: 150px;
+  margin: 20px 35px;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in;
+}
+/* la dib .btn-biographie en hover */
+.btn-biographie:hover{
+  cursor: pointer;
+  width: 250px;
+  transition-duration: 1.5s;
+  border-radius: 40px;
+
+  
+}
+/*fin*/

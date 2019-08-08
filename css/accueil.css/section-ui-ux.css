@@ -1,0 +1,70 @@
+.container-global-ui-ux{
+  /* border:solid 2px #da1122; */
+}
+
+.container-solution-ui-ux {
+  width: 100%;
+  height: 1100px;
+  background-color: #39da11;
+  background-image: url("/img/section-ui-ux.jpg");
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  margin-top: -20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.btn-solution-ui-ux {
+  width: 600px;
+  height: 100px;
+  background-color: #8c2974;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 2px;
+  color: aliceblue;
+  font-size: 2em;
+}
+
+.btn-solution-ui-ux:hover {
+  width: 600px;
+  height: 100px;
+  background-color: #11b9f6;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 2px;
+  color: rgb(246, 247, 248);
+  font-size: 2em;
+}
+
+/*///////Banniers responsive///////////*/
+.banniers-contaire-solution-ui-ux{
+  width: 100%;
+  height: 500px;
+  background-color: #da1122;
+  margin-top: -20px;
+  background-image: url("/img/banniers-solution-planification-s-i.jpg");
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+/*///////Banniers responsive///////////*/
+.container-bannier-galerie-ui-ux {
+  width: 100%;
+  height:350px;
+  background-color: #da1122;
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  background-image: url("/img/galerie-ux-ui.png");
+}
+
+.container-bannier-galerie-button-ui-ux {
+  width: 100%;
+  height:150px;
+
+  background-repeat: no-repeat, center;
+  background-size: cover;
+  background-image: url("/img/bannier-galerie-button-ui-ux.png");
+}
+
+
