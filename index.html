@@ -79,59 +79,62 @@
 
 <body class="body-global">
 
-		<section class="container-fenettre-modal">
-				<p class="paragraphe-link">Avant de naviguer dans les différents rubrique du site
-					<a class="link-modal" href="#openModal"> CLIQUÉ ICI</a> pour lire les information, une fenêtre type modal
-					apprêtera
+	<section class="container-fenettre-modal">
+		<p class="paragraphe-link">Avant de naviguer dans les différents rubrique du site
+			<a class="link-modal" href="#openModal"> CLIQUÉ ICI</a> pour lire les information, une fenêtre type modal
+			apprêtera
+		</p>
+
+		<div id="openModal" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2>INFRORMATION IMPORTANTE</h2>
+
+				<p>Ce site est un projet personnel de José Aguilla pour 2019/20. Ce projet est en face de construction
+					permanente.
+					Je viens de finir une formation de développeur Web que j'alterne avec des différents projets en
+					autodidacte et en plus je continue à me former en autodidacte.<br />
 				</p>
-		
-				<div id="openModal" class="modalDialog">
-					<div>
-						<a href="#close" title="Close" class="close">X</a>
-						<h2>INFRORMATION IMPORTANTE</h2>
-		
-						<p>Ce site est un projet personnel de José Aguilla pour 2019/20. Ce projet est en face de construction
-							permanente.
-							Je viens de finir une formation de développeur Web que j'alterne avec des différents projets en
-							autodidacte et en plus je continue à me former en autodidacte.<br/>
-						</p>
-		
-						<p>Ce site portfolio est destiné premièrement pour tous les développeurs qui volent voir mes
-							compétences acquis mises en application et pour toutes entreprises qui veulent
-							s'intéresser à moi pour me proposer un stage ou contrat comme développeur junior.<br/></p>
-		
-						<p>
-							Ce site est simplement un prototypage en HTML / CSS / jQuery. Ce qui va me permet de voir tous
-							les enjeux d'un projet Web,analyse, planification, stratégie, charte graphique depuis son début,
-							proprement dit la création d'uncahier de charges.<br/>
-						</p>
-		
-						<p>
-							Différent aspect d'un site Web :<br/>
-							<li>L'architecture des pages et hiérarchie d'information.</li>
-							<li> La parti UX, navigation du site est anticipé le besoin utilisateur</li>
-							<li> La partie UI, création de la maquette, des infographies et charte graphique avec les différents outils comme
-								 (Wireframe, Mockups). Un très bon exercice pour développer ma créativité autant que graphique designer.</li>
-							<li> La partie conception Web HTML / CSS comme les images en :hover et les animations.</li>
-							<li> La partie développement front JS (interaction et partie dynamique) jQuery plugin de type
-								carrousel,slider et autres comme de fenêtres de type modal).</li>
-							<li> La partie Back-end comme PHP (requêtes au serveur), SQL (langage base de données), phpmyadmin
-								(administration de la base de données).</li>
-								<li>CMS (wordpress, Woocommerce, Prestashop).</li>
-							<li> La partie fonctionnalisté: la fonctionnalité du site et ajouter
-								des nouvelles fonctionnalités de programmation (code) nécessaires pour la amélioration du site. </li>
-					
-						</p>
-		
-						<p>
-							Dans le répertoire de github vous avez un dossier appeler (img-screnshot-site), Vous pourriez-voir
-							ainsi les images de la partie UI (Maquette du site).
-		
-						</p>
-					</div>
-				</div>
-		
-			</section>
+
+				<p>Ce site portfolio est destiné premièrement pour tous les développeurs qui volent voir mes
+					compétences acquis mises en application et pour toutes entreprises qui veulent
+					s'intéresser à moi pour me proposer un stage ou contrat comme développeur junior.<br /></p>
+
+				<p>
+					Ce site est simplement un prototypage en HTML / CSS / jQuery. Ce qui va me permet de voir tous
+					les enjeux d'un projet Web,analyse, planification, stratégie, charte graphique depuis son début,
+					proprement dit la création d'uncahier de charges.<br />
+				</p>
+
+				<p>
+					Différent aspect d'un site Web :<br />
+					<li>L'architecture des pages et hiérarchie d'information.</li>
+					<li> La parti UX, navigation du site est anticipé le besoin utilisateur</li>
+					<li> La partie UI, création de la maquette, des infographies et charte graphique avec les différents
+						outils comme
+						(Wireframe, Mockups). Un très bon exercice pour développer ma créativité autant que graphique
+						designer.</li>
+					<li> La partie conception Web HTML / CSS comme les images en :hover et les animations.</li>
+					<li> La partie développement front JS (interaction et partie dynamique) jQuery plugin de type
+						carrousel,slider et autres comme de fenêtres de type modal).</li>
+					<li> La partie Back-end comme PHP (requêtes au serveur), SQL (langage base de données), phpmyadmin
+						(administration de la base de données).</li>
+					<li>CMS (wordpress, Woocommerce, Prestashop).</li>
+					<li> La partie fonctionnalisté: la fonctionnalité du site et ajouter
+						des nouvelles fonctionnalités de programmation (code) nécessaires pour la amélioration du site.
+					</li>
+
+				</p>
+
+				<p>
+					Dans le répertoire de github vous avez un dossier appeler (img-screnshot-site), Vous pourriez-voir
+					ainsi les images de la partie UI (Maquette du site).
+
+				</p>
+			</div>
+		</div>
+
+	</section>
 
 
 
@@ -319,38 +322,111 @@
 				<nav id="ddmenu">
 					<div class="menu-icon"></div>
 					<ul>
-						<li class="no-sub">
+						<!-- <li class="no-sub">
 							<a class="top-heading" href="index.html">aj-WebConcept</a>
-						</li>
+						</li> -->
 
 						<li class="full-width">
-							<a class="top-heading" href="competences.html">Compétences</a>
+							<span class="top-heading">aj-Web Philosophie</span>
 							<i class="caret"></i>
-							<!--Trouver un icone pour la rubrique-->
+
+
+
 							<div class="dropdown">
 								<div class="dd-inner">
 									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPENTES QUE J'AI ACQUIS </h2>
+									<ul class="column">
+										<li><br />
+											<img src="img/aj.logo2.png" width="150" height="50" />
+										</li>
+										<li>
+											<h6>TITRE RUBRIQUE</h6>
+										</li>
+										<li><a href="#">Fermentum ut nulla</a></li>
+										<li><a href="#">Duis ut mauris</a></li>
+										<li>
+											<h6>TITRE RUBRIQUE</h6>
+										</li>
+										<li><a href="#">Quisque dictum</a></li>
+										<li><a href="#">Nulla scelerisque</a></li>
+									</ul>
+									<ul class="column">
+										<li><br />
+											<img src="img/aj.logo2.png" width="150" height="50" />
+										</li>
+										<li>
+											<h6>TITRE RUBRIQUE</h6>
+										</li>
+										<li><a href="#">Suspendisse potenti</a></li>
+										<li><a href="#">Curabitur in mauris</a></li>
+										<li><a href="#">Phasellus ultrices</a></li>
+										<li><a href="#">Quisque ornare</a></li>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">Vitae tempus risus</a></li>
+									</ul>
+									<ul class="column mayHide">
+										<li><br />
+											<img src="img/aj.logo2.png" width="150" height="50" />
+										</li>
+										<li>
+											<h6>TITRE RUBRIQUE</h6>
+										</li>
+
+										<li><a href="#">Suspendisse potenti</a></li>
+										<li><a href="#">Curabitur in mauris</a></li>
+										<li><a href="#">Phasellus ultrices</a></li>
+										<li><a href="#">Quisque ornare</a></li>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">Vitae tempus risus</a></li>
+									</ul>
+									<ul class="column">
+										<li><br />
+											<img src="img/aj.logo2.png" width="150" height="50" />
+										</li>
+										<li>
+											<h6>TITRE RUBRIQUE</h6>
+										</li>
+
+										<li><a href="#">Suspendisse potenti</a></li>
+										<li><a href="#">Curabitur in mauris</a></li>
+										<li><a href="#">Phasellus ultrices</a></li>
+										<li><a href="#">Quisque ornare</a></li>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">Vitae tempus risus</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+
+						<li class="full-width">
+							<a class="top-heading" href="#">Mes Compétences</a>
+
+							<i class="caret"></i>
+							<!--Trouver un icone pour la rubrique-->
+							<div class="dropdown">
+
+								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPÉTENCES QUE J'AI ACQUISE
+										PENDANT MES FORMATIONS </h2>
 
 									<!--  ////////////////////////////RUBRIQUE PRESTATION ///////////////////////////////////////////////////////////-->
 									<ul class="column">
 										<li>
-											<h3>Scrum S/I</h3>
+											<h6>GESTION PROJET</h6>
 										</li>
+										<li><a href="#">Gestion projet général</a></li>
+										<li><a href="#">Gestion Projet E-CRM</a></li>
+										<li><a href="#">Gestion Projet MOA</a></li>
+										<li><a href="#">Gestion Projet MOE</a></li>
+										<li><a href="#">Metodologíe Scrum Master</a></li>
 										<li><a href="#">Méthode Agile</a></li>
-										<li><a href="#">Enjeux du projet</a></li>
-										<li><a href="#">Architecture du projet</a></li>
-										<li><a href="#">Ergonomie / Accesibilité</a></li>
-										<li><a href="#">Usabilité / Faisabilité </a></li>
-										<li><a href="#">Redaction technique, éditoriale</a></li>
 										<li><a href="#">Accompagnement et conseille</a></li>
 
-										<!-- <li><a href="#">Méthode Agile</a></li>
-									<li><a href="#">Enjeux du projet</a></li>
-									<li><a href="#">Architecture du projet</a></li>
-									<li><a href="#">Ergonomie / Accesibilité</a></li>
-									<li><a href="#">Usabilité / Faisabilité </a></li>
-									<li><a href="#">Redaction technique, éditoriale</a></li>
-									<li><a href="#">Accompagnement et conseille</a></li> -->
+
+
+
+
+
 
 
 									</ul>
@@ -358,7 +434,7 @@
 
 									<ul class="column">
 										<li>
-											<h3>UX </h3>
+											<h6>UX </h6>
 										</li>
 										<li><a href="#">Identifiez les besoins du clients</a></li>
 										<li><a href="#">Architecture de l'information</a></li>
@@ -367,6 +443,8 @@
 										<li><a href="#">Définition de l’interface</a></li>
 										<li><a href="#">Design et interaction</a></li>
 										<li><a href="#">Rédaction du cahier des charges</a></li>
+										<li><a href="#">Ergonomie / Accesibilité</a></li>
+										<li><a href="#">Redaction technique, éditoriale</a></li>
 
 
 									</ul>
@@ -376,7 +454,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>UI</h3>
+											<h6>UI</h6>
 										</li>
 										<li><a href="#">Méthodologie de conception</a></li>
 										<li><a href="#">Prototypage d'interface utilisateur</a></li>
@@ -392,7 +470,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Front</h3>
+											<h6>Front</h6>
 										</li>
 										<li><a href="#">HTML5 / CSS3 / Flexbox</a></li>
 										<li><a href="#">Framework Bootstrap 4.2.1</a></li>
@@ -405,7 +483,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Back</h3>
+											<h6>Back</h6>
 										</li>
 										<li><a href="#">Création de Base Données</a></li>
 										<li><a href="#">PHP/ SQL / MySQL</a></li>
@@ -418,7 +496,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Envirement Travail</h3>
+											<h6>Envirenement Travail</h6>
 										</li>
 										<li><a href="#">Git</a></li>
 										<li><a href="#">GitHub</a></li>
@@ -432,6 +510,111 @@
 								</div>
 							</div>
 						</li>
+						<!--  ////////////////////////////RUBRIQUE COMPETENCES ///////////////////////////////////////////////////////////-->
+						<li class="full-width">
+							<span class="top-heading"> <a class="top-heading" href="#">GP aj-WebConcept</a></span>
+							<i class="caret"></i>
+							<div class="dropdown">
+								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTE LA RUBRIQUE MES COMPETENCES MISE EN
+										APPLICAITON DANS CE SITE
+									</h2>
+									<ul class="column">
+										<li>
+											<h6>GESTION DE PROJET</h6>
+										</li>
+
+										<li><a href="#">Gestion projet général</a></li>
+										<li><a href="#">Gestion Projet E-CRM</a></li>
+										<li><a href="#">Gestion Projet MOA</a></li>
+										<li><a href="#">Gestion Projet MOE</a></li>
+										<li><a href="#">Metodologíe Scrum Master</a></li>
+										<li><a href="#">Méthode Agile</a></li>
+										<li><a href="#">Accompagnement et conseille</a></li>
+
+
+									</ul>
+
+									<ul class="column mayHide">
+										<li>
+											<h6>UX</h6>
+										</li>
+										<li>
+											<a>Recherching</a>
+										</li>
+										<li><a href="#">Identifiez les flux de données</a></li>
+
+										<li><a href="#">Création d’une identité visuelle</a></li>
+										<li><a href="#">Création d’une communication visuelle</a></li>
+										<li><a href="#">Création d’une identité graphique </a></li>
+										<li><a href="#">Création du contenu adapter</a></li>
+										<li><a href="#">Création d'un model de navigation</a></li>
+										<li><a href="#">Test utilisateur</a></li>
+
+
+
+									</ul>
+
+									<ul class="column mayHide">
+										<li>
+											<h6>UI</h6>
+										</li>
+
+										<li><a href="#">Identifiez les flux de données</a></li>
+
+										<li><a href="#">Création d’une identité visuelle</a></li>
+										<li><a href="#">Création d’une communication visuelle</a></li>
+										<li><a href="#">Création d’une identité graphique </a></li>
+										<li><a href="#">Création du contenu adapter</a></li>
+										<li><a href="#">Création d'un model de navigation</a></li>
+										<li><a href="#">Test utilisateur</a></li>
+
+
+
+									</ul>
+
+									<ul class="column mayHide">
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
+										<li>
+											<h6>WEB DESIGNER</h6>
+										</li>
+										<li><a href="#">Site web statique</a></li>
+										<li><a href="#">Site web dinamique</a></li>
+										<li><a href="#">Site web CMS</a></li>
+										<li><a href="#">Site web e-commerce</a></li>
+										<li><a href="#">Site en responsive</a></li>
+										<li><a href="#">SPA avec Angular</a></li>
+										<li><a href="#">Resposive desing</a></li>
+									</ul>
+
+									<ul class="column mayHide">
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
+										<li>
+											<h6>WEB DEVELOPEMENT</h6>
+										</li>
+										<li><a href="#">Création des formulaires</a></li>
+										<li><a href="#">Création d'un model de BDonnées</a></li>
+										<li><a href="#">Dévolopper application Laravel</a></li>
+
+										<li><a href="#"></a>sASDasd</li>
+										<li><a href="#"></a>sASDasd</li>
+									</ul>
+									<ul class="column mayHide">
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
+										<li>
+											<h6>HÉBERGEMENT</h6>
+										</li>
+										<li><a href="#">Configurer les hebergements</a></li>
+										<li><a href="#">Configurer les noms de domaines DNS .MX</a></li>
+										<li><a href="#">Hebergement Web + Mail</a></li>
+										<li><a href="#">Création de compte PTF</a></li>
+										<li><a href="#">Migration des sites web a travers FTP</a></li>
+										<li><a href="#">Certificat SSL</a></li>
+										<li><a href="#">Création de bases de données</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
 
 						<!--  ////////////////////////////RUBRIQUE PRESTATION ///////////////////////////////////////////////////////////-->
 						<li class="full-width">
@@ -439,11 +622,15 @@
 							<i class="caret"></i>
 							<div class="dropdown">
 								<div class="dd-inner">
-									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES SOLUTIONS OFFERTS A VOTRE BESOIN
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES SOLUTIONS ET SERVICES OFFERTS POUR
+										VOTRE BESOIN
 									</h2>
 									<ul class="column">
 										<li>
-											<h3>Planification et recherche</h3>
+											<h6>GESTION DE PROJET GENERAL</h6>
+										</li>
+										<li>
+											<a>Planification</a>
 										</li>
 										<li>
 											<!--quell type de-->
@@ -481,9 +668,11 @@
 
 									<ul class="column mayHide">
 										<li>
-											<h3>UX / UI</h3>
+											<h6>UX</h6>
 										</li>
-
+										<li>
+											<a>Recherching</a>
+										</li>
 										<li><a href="#">Identifiez les flux de données</a></li>
 
 										<li><a href="#">Création d’une identité visuelle</a></li>
@@ -499,7 +688,7 @@
 
 									<ul class="column mayHide">
 										<li>
-											<h3>UX / UI</h3>
+											<h6>UI</h6>
 										</li>
 
 										<li><a href="#">Identifiez les flux de données</a></li>
@@ -518,7 +707,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Web Desing</h3>
+											<h6>WEB DESIGNER</h6>
 										</li>
 										<li><a href="#">Site web statique</a></li>
 										<li><a href="#">Site web dinamique</a></li>
@@ -532,7 +721,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Web Dévelopement</h3>
+											<h6>WEB DEVELOPEMENT</h6>
 										</li>
 										<li><a href="#">Création des formulaires</a></li>
 										<li><a href="#">Création d'un model de BDonnées</a></li>
@@ -544,7 +733,7 @@
 									<ul class="column mayHide">
 										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Hebergement</h3>
+											<h6>HÉBERGEMENT</h6>
 										</li>
 										<li><a href="#">Configurer les hebergements</a></li>
 										<li><a href="#">Configurer les noms de domaines DNS .MX</a></li>
@@ -562,9 +751,10 @@
 							<i class="caret"></i>
 							<div class="dropdown">
 								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPENTES QUE J'AI ACQUIS </h2>
 									<ul class="column">
 										<li>
-											<h3>Site Wordpress</h3>
+											<h6>SITE WORDPRESS</h6>
 										</li>
 										<li><a href="#">Intalatiion et configuration</a></li>
 										<li><a href="#">Intalation d'un template</a></li>
@@ -577,7 +767,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Site E-commerce</h3>
+											<h6>SITE E-COMMERCE</h6>
 										</li>
 										<li><a href="#">système de paiement</a></li>
 										<li><a href="#">Fringilla congue</a></li>
@@ -587,7 +777,7 @@
 									</ul>
 									<ul class="column mayHide">
 										<li>
-											<h3>Application Single Page</h3>
+											<h6>Application Single Page</h6>
 										</li>
 										<li><a href="#">Framework Angular </a></li>
 										<li><a href="#">Framework Laravel</a></li>
@@ -597,7 +787,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Dévelopement front</h3>
+											<h6>Dévelopement front</h6>
 										</li>
 										<li><a href="#">Modelisatin des données</a></li>
 										<li><a href="#">Creation d'une base données sur mesure</a></li>
@@ -608,7 +798,7 @@
 
 									<ul class="column">
 										<li>
-											<h3>Dévelopement Basck</h3>
+											<h6>Dévelopement Basck</h6>
 										</li>
 										<li><a href="#">Application D'evenemets</a></li>
 										<li><a href="#">Calculateur de devis</a></li>
@@ -621,67 +811,115 @@
 						</li>
 
 						<li class="full-width">
-							<span class="top-heading">TP Git</span>
+							<a class="top-heading" href="competences.html">Mes Portfolio</a>
 							<i class="caret"></i>
+							<!--Trouver un icone pour la rubrique-->
 							<div class="dropdown">
 								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPENTES QUE J'AI ACQUIS </h2>
+
+									<!--  ////////////////////////////RUBRIQUE PRESTATION ///////////////////////////////////////////////////////////-->
 									<ul class="column">
 										<li>
-											<h3>Pellentesque</h3>
+											<h6>Scrum S/I</h6>
 										</li>
-										<li><a href="#">Fermentum ut nulla</a></li>
-										<li><a href="#">Duis ut mauris</a></li>
-										<li>
-											<h3>Volutpat</h3>
-										</li>
-										<li><a href="#">Quisque dictum</a></li>
-										<li><a href="#">Nulla scelerisque</a></li>
+										<li><a href="#">Méthode Agile</a></li>
+										<li><a href="#">Enjeux du projet</a></li>
+										<li><a href="#">Architecture d'une application</a></li>
+										<li><a href="#">Ergonomie / Accesibilité</a></li>
+										<li><a href="#">Usabilité / Faisabilité </a></li>
+										<li><a href="#">Redaction technique, éditoriale</a></li>
+										<li><a href="#">Accompagnement et conseille</a></li>
+
+										<!-- <li><a href="#">Méthode Agile</a></li>
+										<li><a href="#">Enjeux du projet</a></li>
+										<li><a href="#">Architecture du projet</a></li>
+										<li><a href="#">Ergonomie / Accesibilité</a></li>
+										<li><a href="#">Usabilité / Faisabilité </a></li>
+										<li><a href="#">Redaction technique, éditoriale</a></li>
+										<li><a href="#">Accompagnement et conseille</a></li> -->
+
 									</ul>
+
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>UX </h6>
 										</li>
-										<li><a href="#">Suspendisse potenti</a></li>
-										<li><a href="#">Curabitur in mauris</a></li>
-										<li><a href="#">Phasellus ultrices</a></li>
-										<li><a href="#">Quisque ornare</a></li>
-										<li><a href="#">Vestibulum</a></li>
-										<li><a href="#">Vitae tempus risus</a></li>
+										<li><a href="#">Identifiez les besoins du clients</a></li>
+										<li><a href="#">Architecture de l'information</a></li>
+										<li><a href="#">Méthodologie de conception</a></li>
+										<li><a href="#">Story-board et scenarios</a></li>
+										<li><a href="#">Définition de l’interface</a></li>
+										<li><a href="#">Design et interaction</a></li>
+										<li><a href="#">Rédaction du cahier des charges</a></li>
+									</ul>
+
+									<ul class="column mayHide">
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
+										<li>
+											<h6>UI</h6>
+										</li>
+										<li><a href="#">Méthodologie de conception</a></li>
+										<li><a href="#">Prototypage d'interface utilisateur</a></li>
+										<li><a href="#">Logo et identité visuelle</a></li>
+										<li><a href="#">Charte graphique, Typographie</a></li>
+										<li><a href="#">Concevoir une maquette graphique</a></li>
+										<li><a href="#">Qualiter web, mobile</a></li>
+										<li><a href="#">Test Validation</a></li>
+									</ul>
+
+									<ul class="column mayHide">
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
+										<li>
+											<h6>Front</h6>
+										</li>
+										<li><a href="#">HTML5 / CSS3 / Flexbox</a></li>
+										<li><a href="#">Framework Bootstrap 4.2.1</a></li>
+										<li><a href="#">Javascript / jQuery /Json / xml</a></li>
+										<li><a href="#">CMS Wordpress</a></li>
+										<li><a href="#">CMS Prestashop (e-comm) </a></li>
+										<li><a href="#">SPA avec Angular</a></li>
+										<li><a href="#">Resposive desing</a></li>
 									</ul>
 									<ul class="column mayHide">
-										<li><br /><img src="ddmenu/img2.jpg" /></li>
+										<!-- <li><br /><img src="img/aj.logo2.png" /></li> -->
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Back</h6>
 										</li>
-										<li><a href="#">Suspendisse potenti</a></li>
-										<li><a href="#">Curabitur in mauris</a></li>
-										<li><a href="#">Phasellus ultrices</a></li>
-										<li><a href="#">Quisque ornare</a></li>
-										<li><a href="#">Vestibulum</a></li>
-										<li><a href="#">Vitae tempus risus</a></li>
+										<li><a href="#">Création de Base Données</a></li>
+										<li><a href="#">PHP/ SQL / MySQL</a></li>
+										<li><a href="#">POO / PDO / ORM Eloquent</a></li>
+
+										<li><a href="#">Frameworks Laravel</a></li>
+										<li><a href="#">Versioning de logiciel,Git</a></li>
+										<li><a href="#">Sécurité et sauvegarde des données</a></li>
+										<li><a href="#">Test unitaire</a></li>
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Envirenement Travail</h6>
 										</li>
-										<li><a href="#">Suspendisse potenti</a></li>
-										<li><a href="#">Curabitur in mauris</a></li>
-										<li><a href="#">Phasellus ultrices</a></li>
-										<li><a href="#">Quisque ornare</a></li>
-										<li><a href="#">Vestibulum</a></li>
-										<li><a href="#">Vitae tempus risus</a></li>
+										<li><a href="#">Git</a></li>
+										<li><a href="#">GitHub</a></li>
+										<li><a href="#">GitKraken</a></li>
+										<li><a href="#">Linux</a></li>
+										<li><a href="#">Test Unitaires / Test 2E2</a></li>
+										<li><a href="#">Apache2</a></li>
+										<li><a href="#">phpMyadmin</a></li>
+
 									</ul>
 								</div>
 							</div>
 						</li>
 						<li class="full-width">
-							<span class="top-heading">Portfolio</span>
+							<span class="top-heading">TP Github</span>
 							<i class="caret"></i>
 							<div class="dropdown">
 								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPENTES QUE J'AI ACQUIS </h2>
 									<ul class="column">
 										<li>
-											<h3>Pellentesque</h3>
+											<h6>Pellentesque</h6>
 										</li>
 										<li><a href="#">Fermentum ut nulla</a></li>
 										<li><a href="#">Duis ut mauris</a></li>
@@ -693,7 +931,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -703,9 +941,12 @@
 										<li><a href="#">Vitae tempus risus</a></li>
 									</ul>
 									<ul class="column mayHide">
-										<li><br /><img src="ddmenu/img2.jpg" /></li>
 										<li>
-											<h3>Suspendisse</h3>
+											<br />
+											<img src="img/aj.logo2.png" />
+										</li>
+										<li>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -716,7 +957,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -733,9 +974,10 @@
 							<i class="caret"></i>
 							<div class="dropdown">
 								<div class="dd-inner">
+									<h2>DANS CETTE RUBRIQUE VOUS TROUVEREZ TOUTES LES COMPENTES QUE J'AI ACQUIS </h2>
 									<ul class="column">
 										<li>
-											<h3>Pellentesque</h3>
+											<h6>Pellentesque</h6>
 										</li>
 										<li><a href="#">Fermentum ut nulla</a></li>
 										<li><a href="#">Duis ut mauris</a></li>
@@ -747,7 +989,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -757,9 +999,11 @@
 										<li><a href="#">Vitae tempus risus</a></li>
 									</ul>
 									<ul class="column mayHide">
-										<li><br /><img src="ddmenu/img2.jpg" /></li>
+										<li><br />
+											<img src="img/aj.logo2.png" width="150" height="50" />
+										</li>
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -770,7 +1014,7 @@
 									</ul>
 									<ul class="column">
 										<li>
-											<h3>Suspendisse</h3>
+											<h6>Suspendisse</h6>
 										</li>
 										<li><a href="#">Suspendisse potenti</a></li>
 										<li><a href="#">Curabitur in mauris</a></li>
@@ -819,7 +1063,7 @@
 						<!-- pit stop,  -->
 
 						<li>
-							<a href="#presentation">PRESENTATION</a>
+							<a href="#presentation">PRÉSENTATION </a>
 						</li>
 
 						<li>
@@ -829,16 +1073,17 @@
 						<li>
 							<a href="#blog">MES MOTIVATIONS</a>
 						</li>
-
+						<li>
+							<a href="#blog">MES PROJETS</a>
+						</li>
 						<li>
 							<a href="#wikicv">WIKI CV</a>
 						</li>
-						<LI>
-							<a href="#trabajo">COMPETENCES</a>
-						</li>
-
 						<li>
 							<a href="#Parcour proffessionnelle">MES PARCOURS</a>
+						</li>
+						<LI>
+							<a href="#trabajo">COMPÉT. TRANSF. TRANSV</a>
 						</li>
 
 						<li>
@@ -846,7 +1091,7 @@
 						</li>
 
 						<li>
-							<a href="#inicio">---------</a>
+							<a href="#inicio">RECOMMANDATION</a>
 						</li>
 
 
@@ -1066,13 +1311,6 @@
 						</section>
 					</section>
 
-
-
-
-
-
-
-
 					<!--------------FIN DE SECTION N°2 COLOR VERDE------------------------------>
 
 					<!--2.----SECTION CENTRAL N°2 IZQUIERDA CON FONDO VERDE-------------------------->
@@ -1108,9 +1346,6 @@
 							<div class="container-nom">
 								<p class="nom">JOSE</p>
 							</div>
-
-
-
 						</div>
 						<!-- /* 3.3 containres-de contenido izquierda de color roijo*/ -->
 						<div class="container-3-frases-izquierda">
@@ -1494,56 +1729,7 @@
 			<!--container-global-items-solution -->
 			<!-- /*///////////////  FIN DE CONTAINER SOLUTION N°+   ///////////////////*/ -->
 			<!-- -------------------------------------------------------------------------------------------->
-
-
-
-			<!-- -------------------------------------------------------------------------------------------->
-			<!--////////////////////////////////////////////////////////////////*/
-		/*////////////////                            ///////////////////*/
-		/*///////////////  CONAITER N°2 SOLUTIONS    ///////////////////*/
-		/*//////////////                            ///////////////////*/
-		/*////////////////////////////////////////////////////////////*/ -->
-
-
-
-
-			<!--container-global-items-solution -->
-			<!-- /*///////////////  FIN DE CONTAINER SOLUTION N°2   ///////////////////*/ -->
-			<!-- -------------------------------------------------------------------------------------------->
-
-
-
-			<!-- -------------------------------------------------------------------------------------------->
-			<!--////////////////////////////////////////////////////////////////*/
-		/*////////////////                            ///////////////////*/
-		/*///////////////  CONAITER N°3 SOLUTIONS    ///////////////////*/
-		/*//////////////                            ///////////////////*/
-		/*////////////////////////////////////////////////////////////*/ -->
-
-
-
-			<!-- /*///////////////  FIN DE CONTAINER SOLUTION N°3   ///////////////////*/ -->
-			<!-- -------------------------------------------------------------------------------------------->
-
-
-
-
-			<!-- -------------------------------------------------------------------------------------------->
-			<!--////////////////////////////////////////////////////////////////*/
-		/*////////////////                            ///////////////////*/
-		/*///////////////  CONAITER N°4 SOLUTIONS    ///////////////////*/
-		/*//////////////                            ///////////////////*/
-		/*////////////////////////////////////////////////////////////*/ -->
-
-
-
-			<!-- /*///////////////  FIN DE CONTAINER SOLUTION N°4   ///////////////////*/ -->
-			<!-- -------------------------------------------------------------------------------------------->
-
-
-
-
-
+ 
 			<!-- CONTENEDOR BANNER GLOBAL PROCES SOLUITONS -->
 			<section class="flex-container-global-process banner-proces timeline-proces">
 				<!-- aqui tenemos la imagen background proces -->
@@ -1557,7 +1743,7 @@
 		<div class="flex-container-global-abouts-me abuts-me">
 
 			<div class="container-principal-guache">
-
+				<img src="img/foto-profil3.jpg" alt="">
 			</div>
 
 			<div class="container-principal-droit">
@@ -1793,9 +1979,7 @@
 									<h5>Latest News</h5>
 									<div class="kilimanjaro_blog_area">
 										<div class="kilimanjaro_thumb">
-											<img class="img-fluid"
-												src=""
-												alt="">
+											<img class="img-fluid" src="" alt="">
 
 										</div>
 										<a href="#">Your Blog Title Goes Here</a>
@@ -1804,9 +1988,7 @@
 									</div>
 									<div class="kilimanjaro_blog_area">
 										<div class="kilimanjaro_thumb">
-											<img class="img-fluid"
-												src=""
-												alt="">
+											<img class="img-fluid" src="" alt="">
 										</div>
 										<a href="#">Your Blog Title Goes Here</a>
 										<p class="kilimanjaro_date">21 Jan 2018</p>
@@ -1814,9 +1996,7 @@
 									</div>
 									<div class="kilimanjaro_blog_area">
 										<div class="kilimanjaro_thumb">
-											<img class="img-fluid"
-												src=""
-												alt="">
+											<img class="img-fluid" src="" alt="">
 										</div>
 										<a href="#">Your Blog Title Goes Here</a>
 										<p class="kilimanjaro_date">21 Jan 2018</p>

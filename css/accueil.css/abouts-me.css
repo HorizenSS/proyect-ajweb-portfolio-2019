@@ -3,26 +3,33 @@
 /* contenedor-global-about-me */
 .flex-container-global-abouts-me {
     position: relative;
-    /* border: solid 5px #0240f8; */
+    border: solid 5px #0240f8;
     width: 90%;
-    height: 1100px;
+    height: 1030px;
     display: flex;
     margin: auto;
-    margin-top:350px;
+
 
 }
 /* contenedor-princial-about-me-izquierda */
 .container-principal-guache{
     width: 50%;
-    height: 1220px;
-    /* border: solid 5px #dde903; */
-    background-image: url("/img/foto-profil3.jpg");
+    height: 1020px;
+    border: solid 5px #dde903;
+    /* background-image: url("/img/Cv-jose developpeur-junior-2019-black.png"); */
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
+
+.container-principal-guache img{
+  width: 730px;
+  height: 1010px;
+}
+
+
 /* contenedor-princial-about-me-derecha */
 .container-principal-droit{
     width: 50%;

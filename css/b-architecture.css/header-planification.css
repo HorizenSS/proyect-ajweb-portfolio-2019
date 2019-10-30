@@ -8,8 +8,10 @@ body{
   	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'open sans';
-  background-image: url("/img/background-Night-Call.png");
+  font-family: 'open sans';
+
+  background-image: linear-gradient(to right top, #04070b, #001d49, #002b8b, #002ec9, #0404fd);
+
   width: 100%;
   height: 6000px;
     font-size: 1.6rem;
@@ -65,7 +67,7 @@ background: rgb(47, 3, 194); */
   pointer-events: all;
   margin-left: 20px;
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .spacer {
   display: inline-block;
@@ -403,7 +405,7 @@ h1{
 
 .front{
   transform: rotateX(0deg) translateZ(25px);
-  background: #660FF7;
+  background-image: linear-gradient( #002ec9, #0404fd);
   color: #FB910A;
   font-weight: 100;
 }
@@ -497,9 +499,9 @@ text-decoration: none;
 
 
 .item-text-arboresence{
-  color:#fff;
-  margin-left: 200px;
-  margin-top: 100px;
+  color: #fff;
+  margin-left: 286px;
+  margin-top: 48px;
 }
 
 /* titulo del contenedor derecha */
@@ -566,8 +568,9 @@ color: rgb(18, 44, 211);
 
 
  .container-global-banner{
-  background-color:  rgb(15, 9, 197);
+  background-image: linear-gradient(to right top, #04070b, #001d49, #002b8b, #002ec9, #0404fd);
   /* box-shadow: 5px 2px 10px 2px black; */
+  box-shadow: 5px 5px 20px rgb(12, 12, 12);
 	padding: 0;
 	box-sizing: border-box;
   background-image: url("/img/background-Night-Call.png");
@@ -657,7 +660,7 @@ input, button
     width: 85%;
     height: 85px;
     padding: 35px;
-    margin:45px 100px;
+    margin:10px 100px;
     /* background-color:  #FB910A; */
     box-shadow: 5px 5px 20px rgb(12, 12, 12);
 }

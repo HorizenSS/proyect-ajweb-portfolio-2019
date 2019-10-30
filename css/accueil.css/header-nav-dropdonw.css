@@ -150,7 +150,7 @@
   }
   
   #ddmenu .dd-inner {
-      height: 400px;
+      height: 800px;
    
       text-align:center;
       padding:20px;
@@ -171,7 +171,14 @@
       padding:6px 0; /*It determines the line height*/
       color:inherit;
       line-height:1;
-      margin:0;display:block;position:static;background:none;border:none;transition:none;border-radius:0;
+      margin:0;
+      display:block;
+      position:static;
+      background:none;
+      border:none;
+      transition:none;
+      border-radius:0;
+      margin-top: .5rem;
   }
     
   /* links in sub menu
@@ -216,15 +223,21 @@
     line-height: 1.1;
     margin-top: 12px;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 15px;
+    text-transform:uppercase;
+    border-bottom:1px solid #333;
+    padding: 50px;
+    color: orangered;
   }
   
   #ddmenu li {border-radius:3px 3px 0 0;}
   
+ 
+
   #ddmenu h2 {
-  text-transform:uppercase;
-  border-bottom:1px solid #333;
-  }
+    text-transform:uppercase;
+    border-bottom:1px solid #333;
+    }
   
   /* useful when http://www.menucool.com/ddmenu/one-menu-for-all-pages */
   #ddmenuLink {display:none;}

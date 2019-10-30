@@ -18,7 +18,7 @@ body{
     padding: 0px;
     text-align: center;
     width: 100%;
-    background: #000;
+    /* background: #000; */
     display: inline-block;
 }
 
@@ -38,7 +38,7 @@ header .wrap{
 .wrap{
   width: 95%;/**95% de la totalidad/*/
   margin: auto;
-  background: #383838;
+  /* background: #383838; */
   margin-top: -22px;
 }
 
